@@ -101,7 +101,7 @@ a.active,a:hover{
         left: 0;
     }
 }
-.about{
+#about{
     width: 100%;
     padding: 78px 0px;
     background-color: black;
@@ -123,7 +123,7 @@ a.active,a:hover{
     justify-content: space-around;
 }
 .about-text h1{
-    color: var(--purple-light);
+    color: white;
     font-size: 80px;
     text-transform: capitalize;
     margin-bottom: 20px;
@@ -136,53 +136,12 @@ a.active,a:hover{
     letter-spacing: 2px;
 }
 .about-text p{
-    color: rgba(255, 251, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     letter-spacing: 1px;
     line-height: 28px;
     font-size: 18px;
     margin-bottom: 45px;
 }
-a{
-    background: var(--light-green);
-    color: white;
-    text-decoration: none;
-    border: 2px solid transparent;
-    font-weight: bold;
-    padding: 13px 30px;
-    border-radius: 30px;
-    transition: .4s;
-}
-a:hover{
-    background: transparent;
-    border: 2px solid var(--light-green);
-    cursor: pointer;
-}
-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-}
-th, td {
-    border: 1px solid var(--light-green);
-    padding: 8px;
-    text-align: center;
-}
-th {
-    background-color: var(--light-green);
-}
-img {
-    max-width: 150px;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-}
-.rating {
-    font-size: 1.2em;
-    font-weight: bold;
-}
-tr th{
-    color: white;
-}
-tr td{
-    color: yellow;
+span{
+    color: goldenrod;
 }
